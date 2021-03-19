@@ -1,0 +1,21 @@
+
+  <div class="card p-2">
+      <div class="product-image">
+        <img src="{{product.links.mission_patch}}" class="card-img-top" alt="...">
+      </div> 
+
+      <div class="product-info card-body">
+        <h5 class="card-title">{{ product.mission_name}} #{{product.flight_number}}</h5>
+        <p class="card-text"><strong>Mission Ids:</strong></p> 
+        <ul><li> {{product.mission_id}}</li>
+        </ul>
+
+        <p class="card-text"><strong>Launch Year: </strong>{{product.launch_year}}</p>
+        <p class="card-text"><strong>Successful Launch: </strong>{{product.launch_success}}</p>
+
+        <p class="card-text"><strong>Successful Landing: </strong> {{product.rocket.first_stage.cores[0].land_success}}</p>
+        
+      </div>
+  </div>
+
+  

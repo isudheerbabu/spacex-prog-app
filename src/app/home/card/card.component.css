@@ -1,0 +1,11 @@
+
+.product-image img {
+    max-width: 100%;
+}
+
+.product-info {
+    margin-top: auto;
+}
+img{
+    background-color: #f8f8f8;
+}
